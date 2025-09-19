@@ -24,7 +24,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: 'https://healthfrontend.vercel.app'
+  origin: 'https://healthfrontend1.vercel.app'
 }));
 app.use(express.json());
 
